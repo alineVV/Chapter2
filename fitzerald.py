@@ -17,7 +17,6 @@ for id in ids:
         tags2 = tag.find_all('a')
         for tag2 in tags2:
             final_tag = tag2.text.strip()
-            #обязательно вставлять это TEXT!!!
             print(final_tag)
             f.writerow([final_tag])
 
